@@ -1,6 +1,8 @@
 # PythonPing
 Simple Python Ping tool
 
-A Private ping tool for checking network connectivity and reachability to the Internet
+A ping tool ceated in python for checking network connectivity and reachability to the Internet
 
-Made entierly for my self
+The results are saved in a txt file called pingresults.txt.
+
+Made entierly as a fun beginner project. 
