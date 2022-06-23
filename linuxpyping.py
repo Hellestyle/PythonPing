@@ -12,6 +12,7 @@ internet = ("8.8.8.8")
 ip1up = 1
 ip2up = 1
 ip3up = 1
+ping = ("ping")
 dnsup = 1
 internetup = 1
 ip1 = input("Input IP adress to ping: ")
@@ -26,7 +27,7 @@ File_object.write("\n" * 3)
 File_object.write("Results from the latest scan ")
 File_object.write(dt_string)
 
-res1 = os.system("ping" + packets + ip1)
+res1 = os.system(ping + packets + ip1)
 if res1 == 0:
     print(ip1, 'is up!')
     result1 = (ip1 + " is up!")
@@ -40,7 +41,7 @@ else:
     File_object.write(result1)
     ip1up -= 1
 # Ping number 2
-res2 = os.system("ping" + packets + ip2)
+res2 = os.system(ping + packets + ip2)
 if res2 == 0:
     print(ip2, 'is up!')
     result2 = (ip2 + " is up!")
@@ -54,7 +55,7 @@ else:
     File_object.write(result2)
     ip2up -= 1
 # Ping number 3
-res3 = os.system("ping" + packets + ip3)
+res3 = os.system(ping + packets + ip3)
 if res3 == 0:
     print(ip3, 'is up!')
     result3 = (ip3 + " is up!")
@@ -68,7 +69,7 @@ else:
     File_object.write(result3)
     ip3up -= 1
 
-res4 = os.system("ping" + packets + dns)
+res4 = os.system(ping + packets + dns)
 if res4 == 0:
     print(dns, 'is up!')
     result4 = ("DNS is working!")
@@ -82,7 +83,7 @@ else:
     File_object.write(result4)
     dnsup -= 1
 
-res5 = os.system("ping" + packets + internet)
+res5 = os.system(ping + packets + internet)
 if res5 == 0:
     print(internet, 'is up!')
     result5 = ("You have a connection to the world wide web")
