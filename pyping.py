@@ -2,11 +2,19 @@ from datetime import datetime
 import os
 import platform
 
+
+
+
 # Open pingresults.txt
 File_object = open(r"pingresults.txt", "a+")
-# strings
-# change -n to -c for linux compatability
-packets = (" -n 1 ")
+
+#Check if windows or linux/macOS
+if os.name == str ("nt"):
+    packets = packets = (" -n 1 ")
+else:
+    packets = (" -c 1 ")
+
+# variables
 dns = ("google.com")
 internet = ("8.8.8.8")
 ip1up = 1
