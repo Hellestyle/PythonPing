@@ -136,3 +136,5 @@ else:
 print("_" * 24)
 # close pingresults
 File_object.close()
+
+input ("Press enter to exit")
