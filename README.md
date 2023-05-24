@@ -1,6 +1,8 @@
 # PythonPing
 Simple Python Ping tool
 
+## Now with emojies ! ✅
+
 Preview:
 
 ![pythonpingtoolimage](https://user-images.githubusercontent.com/57177898/175386042-e08d201b-23ee-42b6-8be2-6f3593eb19ec.png)
