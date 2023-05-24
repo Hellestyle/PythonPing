@@ -50,14 +50,14 @@ def main():
     count = 0
     results = dict()
     standardPingList = ["8.8.8.8","google.com"]
-    #while count != 3:
-    #    host = input("Enter IP or hostname: ")
-    #    if validateIP(host):
-    #        results[host] = ping(host,os)
-    #        count += 1
-    #    elif validateDomain(host):
-    #        results[host] = ping(host,os)
-    #        count += 1
+    while count != 3:
+        host = input("Enter IP or hostname: ")
+        if validateIP(host):
+            results[host] = ping(host,os)
+            count += 1
+        elif validateDomain(host):
+            results[host] = ping(host,os)
+            count += 1
     for i in range(len(standardPingList)):
         results[standardPingList[i]] = ping(standardPingList[i],os)
     
