@@ -5,7 +5,7 @@ Simple Python Ping tool
 
 Preview:
 
-![pythonpingtoolimage](https://user-images.githubusercontent.com/57177898/175386042-e08d201b-23ee-42b6-8be2-6f3593eb19ec.png)
+<img width="269" alt="image" src="https://github.com/Hellestyle/PythonPing/assets/57177898/8d5a514a-a7be-4e73-a9fb-26223e8dbc17">
 
 
 A ping tool ceated in python for checking network connectivity and reachability to the Internet
