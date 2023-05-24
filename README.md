@@ -8,11 +8,9 @@ Preview:
 
 A ping tool ceated in python for checking network connectivity and reachability to the Internet
 
-Use the pyping.py for Windows and linuxpyping.py for Linux/MacOS
+Use the pythonping.py and input three IP adresses or hostnames
 
 The results are saved in a txt file called pingresults.txt
 
-
-Please report any issues, and i will try to fix them.
 
 Made as a fun beginner project. Also to learn a bit more about Github
